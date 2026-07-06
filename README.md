@@ -2,7 +2,7 @@
 
 Replacing Trinity + manual Geneious annotation with a PacBio Iso-Seq
 long-read pipeline for reference-genome-free transcript assembly,
-built for the Mirchel Lab.
+built for the Mitchell Lab.
 
 ## Why this exists
 
