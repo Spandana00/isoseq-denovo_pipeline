@@ -1,5 +1,3 @@
-# isoseq-denovo_pipeline
-cat > README.md << 'EOF'
 # De novo Iso-Seq transcriptome assembly pipeline
 
 Replacing Trinity + manual Geneious annotation with a PacBio Iso-Seq
@@ -17,20 +15,20 @@ stitch fragments together.
 
 ## Pipeline stages
 
-1. `skera` - segment Kinnex arrays into individual reads (S-reads)
-2. `lima` - remove cDNA library primers
-3. `isoseq refine` - trim poly-A tails, filter chimeric reads -> FLNC reads
-4. `isoseq cluster2` - error-correct and cluster into consensus isoforms
-5. `Cogent` - group isoforms into gene families via reconstructed loci
-6. (later) `oarfish` - expression quantification
+1. skera - segment Kinnex arrays into individual reads (S-reads)
+2. lima - remove cDNA library primers
+3. isoseq refine - trim poly-A tails, filter chimeric reads -> FLNC reads
+4. isoseq cluster2 - error-correct and cluster into consensus isoforms
+5. Cogent - group isoforms into gene families via reconstructed loci
+6. (later) oarfish - expression quantification
 
 ## Environment
 
 Two separate conda environments:
-- `isoseq-denovo` - lima, isoseq, skera, samtools
-- `cogent` - Cogent, gmap, minimap2
+- isoseq-denovo - lima, isoseq, skera, samtools
+- cogent - Cogent, gmap, minimap2
 
-See `setup_isoseq_environment.sh` for the full build.
+See setup_isoseq_environment.sh for the full build.
 
 ## Progress log
 
@@ -38,5 +36,4 @@ See `setup_isoseq_environment.sh` for the full build.
 - [ ] First lima/refine run on real data
 - [ ] isoseq cluster2 run
 - [ ] Cogent family grouping
-- [ ] Manual annotation in Geneious
-EOF
+- [ ] Manual annotation in Geneious 
