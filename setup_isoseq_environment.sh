@@ -19,6 +19,7 @@ git clone https://github.com/Magdoll/Cogent.git
 cd Cogent
 conda run -n cogent pip install .
 cd ~
+conda run -n cogent pip install "networkx<2.7" "numpy<2" "scikit-image<0.20" parasail --force-reinstall
 
 conda run -n cogent python -c "import Cogent; print('Cogent import OK')"
 
