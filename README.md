@@ -1,4 +1,4 @@
-# De novo Iso-Seq transcriptome assembly pipeline
+# Iso-Seq transcriptome assembly pipeline
 
 Replacing Trinity + manual Geneious annotation with a PacBio Iso-Seq
 long-read pipeline for reference-genome-free transcript assembly, built
