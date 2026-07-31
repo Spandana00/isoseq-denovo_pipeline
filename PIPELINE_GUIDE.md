@@ -274,7 +274,7 @@ into one file — the genuine final deliverable of a Cogent run.
 For full-scale, genome-wide datasets where Cogent's structural approach
 becomes impractical, MMseqs2 provides a fast, sequence-identity-based
 alternative. Settings and rationale are documented in the official
-[MMseqs2 User Guide](https://www.mmseqs.com/latest/userguide.pdf).
+[MMseqs2 User Guide](https://www.mmseqs.com/latest/userguide.pdf). (Steps 1,2, and 3 have been highlighted for ease).
 
 ### 6.1 The four steps
 
