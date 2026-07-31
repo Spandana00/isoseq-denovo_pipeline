@@ -110,6 +110,9 @@ dependency version pins Cogent requires).
   MMseqs2 User Guide for exactly this fragment-absorption use case) as
   the production approach for full genome-wide datasets.
 - Roar Collab (PSU HPC) set up in parallel as a scaling option - blocked
+
+  ___________________________________________________________________________________________________
+  Gemini and Claude.ai were used for debugging and understanding command prompt structures. 
   on account billing minutes (default "open" account has ~2.86 credits,
   insufficient for a multi-day job). Would need a PI-sponsored account
   from Professor Mitchell to use for future large-scale runs.
