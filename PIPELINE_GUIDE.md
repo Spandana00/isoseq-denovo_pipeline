@@ -370,3 +370,7 @@ workFlow/
 | `run_preCluster.py` not in bioconda `cdna_cupcake` package | Build from source, specifically the `tofu2_v21` git tag (not `master` — the script was removed from later versions) |
 | `run_preCluster.py` Python 2 syntax errors | Patch with `lib2to3`, plus manual fixes for `cPickle`, integer division (`/` → `//`), and old-style `raise` statements |
 | Duplicate background processes writing to the same file | Always run one command per paste — never paste multiple `nohup ... &` commands together; verify with `ps aux` before stepping away |
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+Claude.ai was used to compile this pipeline guide( specifically all the command prompts and steps 6 through 8). Thanks claude.ai! 
+
